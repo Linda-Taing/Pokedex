@@ -30,7 +30,6 @@ export class PokesController {
     }
     async getPokemonByName(url) {
         try {
-
             await pokesService.getPokemonByUrl(url)
         } catch (error) {
             console.error(error)

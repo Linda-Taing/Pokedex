@@ -5,8 +5,6 @@ export class Pokemon {
         this.url = data.url
 
 
-
-
     }
 
     get PokePokemonTemplate() {
