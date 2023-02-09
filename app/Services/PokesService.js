@@ -15,6 +15,7 @@ class PokesService {
         const res = await sandboxApi.get(url)
         console.log('DATA URL', res.data
         )
+
     }
 
 }
